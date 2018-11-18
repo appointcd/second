@@ -73,26 +73,28 @@
 
     select{
         border: none;
-        width: 42%42%;
+        width: 50%50%;
         height: 44px;
-        margin: 14px 5px;
+        margin: 14px 42px;
         border-radius: 20px;
         outline:none;
         color:#000;
     }
-
+ 
 
     p{
         display: inline-block;
         width: 22px;
         height: 210px;
         text-align: center;
+        font-size: 23.33px;
         
     }
 
  
     body{
-        background: url(yuanshi.png) no-repeat 0 0/cover
+        background: url(yuanshi.png) no-repeat 0 0/cover;
+        text-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
     }
 
     </style>
@@ -106,21 +108,22 @@
             <input id="file" type="file">
             <label id="ico" for="file" style="float: right">
                     <div class="pic">
-                        <p>照片</p>
+                        <p>照片</p><input id="file" type="file">
                         <img alt="头像" src="头像.png" style="background-color:#fff;border-radius:25px;padding:30px 20px;">
                     </div>
             </label>
-            <div class="box1" style="width:65%;display: inline-block;">
-                姓名:<input type="text" />
+            <div class="box1" style="width:65%;display: inline-block;font-size: 20px;">
+                姓名:
+                <input type="text" />
                 性别:<input type="text" />
                 <br />
                 专业:<input type="text" />
                 班级:<input type="tel" />
                 <br />
-                电话:<input style="width: 406px;" type="tel" />
+                电话:<input style="width: 79%;" type="tel" />
             </div>
-            <div class="box2" >
-                志愿:
+            <div class="box2" style="font-size:20px;">
+                    志愿：
                     <select>
                         <option value="" selected="selected"></option>
                         <option value="general office">综合办公室</option>
@@ -143,7 +146,7 @@
                         <option value="video group">视频集团(微效坊、微影像、电视台)</option>
                     </select>
             </div>
-            <div class="reason"> 
+            <div class="reason" style="font-size: 20px;"> 
                 填报理由
                 <input style="width: 95%;height: 110px; vertical-align: top;" type="text">
             </div>
