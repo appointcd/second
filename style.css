@@ -5,6 +5,9 @@
     vertical-align: baseline;
 }
 
+@media screen and (width:375th){
+    background: url(yuanshi.png) no-repeat 0 0;
+}
 .header{
     margin-top: 70px;
     margin-left: 290px;
